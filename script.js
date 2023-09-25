@@ -3,7 +3,7 @@ const sendButton = document.getElementById('send');
 const chatMessages = document.getElementById('chat-messages');
 
 // Create a Socket.io connection to the server
-const socket = io();
+const socket = io('https://wakeful-acoustic-cupcake.glitch.me');
 
 // Function to display a message
 function displayMessage(user, message) {
