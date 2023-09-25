@@ -9,6 +9,9 @@
 <body>
   <div class="chat-container">
     <div class="chat">
+      <div class="chat-status" id="chat-status">
+        Server Status: <span id="status">Connecting...</span>
+      </div>
       <div class="chat-messages" id="chat-messages">
         <!-- Messages will be displayed here -->
       </div>
@@ -16,6 +19,7 @@
       <button id="send">Send</button>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
